@@ -1,0 +1,109 @@
+.spinny-div {
+  height: 200px;
+  width: 200px;
+  border-radius: 30%;
+  /* background-color: green; */
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+
+  /* ANIMATION */
+  animation-name: spin;
+  animation-duration: 6000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  /* transform: rotate(3deg);
+  transform: rotate(0.3rad);
+  transform: rotate(3grad);
+  transform: rotate(0.03turn); */
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinny-icon {
+  height: 50px;
+  max-width: 80px;
+  border-radius: 10%;
+  animation-name: spin-icons;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  object-fit: scale-down;
+}
+
+.no-spinny-icon {
+  animation-name: grow;
+  animation-duration: 2000ms;
+  height: 50px;
+  max-width: 80px;
+  margin: 20px;
+  border-radius: 10%;
+  object-fit: scale-down;
+}
+
+.none {
+  display: none;
+}
+.show {
+  display: inline;
+}
+
+@keyframes grow {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 50px;
+  }
+}
+
+.no-spinny-div {
+  height: 100px;
+  /* width: 90vw; */
+  border-radius: 30%;
+  /* background-color: white; */
+  transition-duration: 5000ms;
+  transition-property: width;
+  display: flex;
+  justify-content: space-around;
+}
+@keyframes spin-icons {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width: 850px) {
+  .no-spinny-icon {
+    height: 30px;
+    max-width: 30px;
+    margin: 5px;
+    border-radius: 10%;
+    object-fit: scale-down;
+  }
+}
+@media (max-width: 450px) {
+  .no-spinny-div {
+    flex-direction: column;
+  }
+  .spinny-div {
+    height: 100px;
+    /* width: 90vw; */
+    border-radius: 30%;
+    animation-name: none;
+    /* background-color: white; */
+    /* transition-duration: 5000ms;
+    transition-property: width;
+    display: flex;
+    justify-content: space-around; */
+  }
+}

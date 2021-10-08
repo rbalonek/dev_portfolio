@@ -1,0 +1,22 @@
+.spinny-div__container {
+  /* background-color: red; */
+  /* height: 80%; */
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+@media (max-width: 450px) {
+  .spinny-div__container {
+    /* background-color: red; */
+    /* height: 80%; */
+    width: 80%;
+
+    flex-wrap: nowrap;
+    padding: 50px;
+    /* flex-direction: column; */
+    position: relative;
+    top: 100px;
+  }
+}
