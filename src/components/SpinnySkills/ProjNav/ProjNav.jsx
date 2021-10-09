@@ -14,11 +14,13 @@ export default function ProjNav(props) {
         </a>
       </div>
       <div className="proj-nav__down">
-        <img
-          className="proj__nav-arrow"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1611018057/Cherry/Cherry%20Clients/Graphic%20Assets/DownArrow_vjka53.png"
-          alt="down"
-        />
+        <a href={`#${props.scrollDown}`}>
+          <img
+            className="proj__nav-arrow"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1611018057/Cherry/Cherry%20Clients/Graphic%20Assets/DownArrow_vjka53.png"
+            alt="down"
+          />
+        </a>
       </div>
     </div>
   );

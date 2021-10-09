@@ -1,6 +1,6 @@
 .stack__container {
   /* background-color: red; */
-  width: 75px;
+  width: 100px;
   height: 92vh;
   display: flex;
   flex-direction: column;
@@ -9,6 +9,6 @@
   align-items: center;
 }
 .proj__img {
-  height: 40px;
-  max-width: 60px;
+  height: 60px;
+  max-width: 90px;
 }

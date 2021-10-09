@@ -9,10 +9,12 @@ export default function Skills() {
       <SpinnySkills />
       <div>
         <a href="#happy-space">
-          <div className="arrow">
-            <span></span>
-            <span></span>
-            <span></span>
+          <div className="arrow__holder">
+            <div className="arrow">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
         </a>
       </div>

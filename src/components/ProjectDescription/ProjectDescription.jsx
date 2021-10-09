@@ -6,7 +6,9 @@ export default function ProjectDescription(props) {
       {props.text.length && (
         <>
           {props.text.map((line) => (
-            <p>{line}</p>
+            <>
+              <p>{line}</p>
+            </>
           ))}
         </>
       )}

@@ -6,13 +6,13 @@
   object-fit: contain; */
 }
 .carousel * {
-  height: 400px;
+  height: 500px;
   object-fit: contain;
   position: relative;
 }
 .carousel .control-dots {
   position: absolute;
-  top: 370px;
+  top: 470px;
   margin: 10px 0;
   padding: 0;
   text-align: center;

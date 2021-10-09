@@ -2,11 +2,11 @@
   display: flex;
   justify-content: space-around;
   position: relative;
-  top: 40px;
+  top: 5px;
 }
 .project__icon {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
   border-radius: 10%;
 }
 .project__app-store {

@@ -5,7 +5,6 @@ import { Carousel } from "react-responsive-carousel";
 // import { ContactsOutlined } from "@material-ui/icons";
 
 export default function ProjectCarousel(props) {
-  console.log(props);
   return (
     <div style={{ paddingTop: "20px", border: "solid red" }}>
       <Carousel
@@ -14,33 +13,44 @@ export default function ProjectCarousel(props) {
         showIndicators={true}
         showThumbs={false}
         // autoPlay={false}
-        // useKeyboardArrows={true}
-        // swipeable
+        useKeyboardArrows={true}
+        swipeable
       >
-        <div>
-          <img src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1612209966/Portfolio%20Pics/Happy-space/InspirationScreen_m5vfie.png" />
-        </div>
-        <div>
-          <img src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1612209966/Portfolio%20Pics/Happy-space/InspirationScreen_m5vfie.png" />
-        </div>
-        <div>
-          <img src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1612209966/Portfolio%20Pics/Happy-space/InspirationScreen_m5vfie.png" />
-        </div>
+        {props.images.map((image, index) => (
+          <div className="carousel__image-holder">
+            <img
+              className="carousel__image"
+              alt={`Ige${index}`}
+              key={index + image}
+              src={image}
+            />
+          </div>
+        ))}
       </Carousel>
     </div>
   );
 }
 // {props.images.length && (
 //   <>
-//     {props.images.map((image, index) => (
-//       <div className="carousel__image-holder">
-//         <img
-//           className="carousel__image"
-//           alt={`Ige${index}`}
-//           key={index + image}
-//           src={image}
-//         />
-//       </div>
-//     ))}
+// {props.images.map((image, index) => (
+//   <div className="carousel__image-holder">
+//     <img
+//       className="carousel__image"
+//       alt={`Ige${index}`}
+//       key={index + image}
+//       src={image}
+//     />
+//   </div>
+// ))}
 //   </>
 // )}
+
+// <div>
+//           <img src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1612209966/Portfolio%20Pics/Happy-space/InspirationScreen_m5vfie.png" />
+//         </div>
+//         <div>
+//           <img src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1612209966/Portfolio%20Pics/Happy-space/InspirationScreen_m5vfie.png" />
+//         </div>
+//         <div>
+//           <img src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1612209966/Portfolio%20Pics/Happy-space/InspirationScreen_m5vfie.png" />
+//         </div>
