@@ -13,8 +13,12 @@ export default function NavBar() {
         </a>
       </div>
       <div className="right-nav">
-        <p className="right_nav-move">About</p>
-        <p>Contact</p>
+        <a href="#about">
+          <p className="right_nav-move">About</p>
+        </a>
+        <a href="#contact">
+          <p>Contact</p>
+        </a>
       </div>
     </div>
   );

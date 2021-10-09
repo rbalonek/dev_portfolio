@@ -69,11 +69,9 @@ const Projects = [
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/r_22/v1599500206/Portfolio%20Pics/Trinity-cell-1_e2d9xi.png",
     ],
     text: [
-      "Trinity Place Shelter was my first project working with a UX team and multiple developers.",
-      "We used a MERN stack to complete.",
+      "Trinity Place Shelter was my first project working with a UX team and multiple developers. We used a MERN stack to complete.",
       "I was the team leader so I controlled the github project flow using their Kanban project board.",
-      "We added an admin screen to show full CRUD capabilities with the volunteer form.",
-      'We were asked to make a "Pixel-Perfect" recreation from the UX teams Figma.',
+      'We added an admin screen to show full CRUD capabilities with the volunteer form and were asked to make a "Pixel-Perfect" recreation from the UX teams Figma.',
       "While following a Scrum / Agile workflow, we finished our sprint early, and were able to add on a few extra features.",
     ],
     stack: [
