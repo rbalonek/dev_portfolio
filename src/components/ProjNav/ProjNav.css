@@ -1,5 +1,5 @@
 .proj-nav__container {
-  height: 92vh;
+  height: 80vh;
   width: 10%;
   border: solid red;
   /* background-color: red; */
@@ -7,18 +7,24 @@
   flex-direction: column;
 }
 .proj-nav__up {
-  height: 50%;
+  height: 40vh;
   /* background-color: blue; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.proj-nav__up:hover {
+  background-color: red;
+}
 .proj-nav__down {
-  height: 50%;
+  height: 40vh;
   /* background-color: green; */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.proj-nav__down:hover {
+  background-color: red;
 }
 .proj__nav-arrow {
   width: 100%;

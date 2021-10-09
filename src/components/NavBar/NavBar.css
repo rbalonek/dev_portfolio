@@ -1,28 +1,35 @@
 .navBar__container {
   height: 50px;
   width: 100vw;
-  /* background-color: white; */
   display: flex;
-  color: black;
+  color: white;
   justify-content: space-between;
   position: sticky;
   top: 0;
 }
+.navBar__container p:hover {
+  color: red;
+}
 .left-nav {
-  width: 120px;
-  background-color: white;
+  width: 150px;
   padding-left: 10px;
   display: flex;
+  background-color: black;
 }
+
 .left_nav-move {
-  padding-left: 10px;
+  padding-left: 50px;
 }
 .right-nav {
-  width: 120px;
-  background-color: white;
-  padding-right: 10px;
+  width: 150px;
+  background-color: black;
+  padding-right: 50px;
   display: flex;
 }
 .right_nav-move {
-  padding-right: 10px;
+  padding-right: 50px;
+}
+a {
+  text-decoration: none;
+  color: white;
 }

@@ -1,7 +1,7 @@
 .stack__container {
   /* background-color: red; */
   width: 100px;
-  height: 92vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
