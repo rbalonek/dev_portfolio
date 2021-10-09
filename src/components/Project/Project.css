@@ -1,0 +1,17 @@
+.project__container {
+  height: 100vh;
+  color: white;
+}
+.screen-split {
+  display: flex;
+  width: 100%;
+  /* background-color: blue; */
+  justify-content: space-around;
+}
+.project__right-split {
+  /* background-color: red; */
+  width: 70%;
+  /* height: 100px; */
+  display: flex;
+  flex-direction: column;
+}

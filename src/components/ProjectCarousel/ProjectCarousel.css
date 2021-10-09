@@ -1,0 +1,21 @@
+.carousel__image-holder {
+  /* height: 300px; */
+}
+.carousel__image {
+  /* max-height: 400px;
+  object-fit: contain; */
+}
+.carousel * {
+  height: 400px;
+  object-fit: contain;
+  position: relative;
+}
+.carousel .control-dots {
+  position: absolute;
+  top: 370px;
+  margin: 10px 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}

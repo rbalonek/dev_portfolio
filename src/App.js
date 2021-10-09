@@ -1,5 +1,6 @@
 import "./App.css";
 import Landing from "./sections/Landing/Landing";
+import Projects from "./sections/Projects/Projects";
 import Skills from "./sections/Skills/Skills";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Landing />
       <Skills />
+      <Projects />
     </div>
   );
 }

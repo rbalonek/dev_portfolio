@@ -1,0 +1,28 @@
+.navBar__container {
+  height: 50px;
+  width: 100vw;
+  /* background-color: white; */
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+.left-nav {
+  width: 120px;
+  background-color: white;
+  padding-left: 10px;
+  display: flex;
+}
+.left_nav-move {
+  padding-left: 10px;
+}
+.right-nav {
+  width: 120px;
+  background-color: white;
+  padding-right: 10px;
+  display: flex;
+}
+.right_nav-move {
+  padding-right: 10px;
+}

@@ -5,8 +5,17 @@ import "./Skills.css";
 export default function Skills() {
   return (
     <div id="skills" className="skills__container">
-      <h3>SKILLS</h3>
+      <h1>SKILLS</h1>
       <SpinnySkills />
+      <div>
+        <a href="#happy-space">
+          <div className="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </a>
+      </div>
     </div>
   );
 }

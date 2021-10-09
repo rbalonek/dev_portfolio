@@ -1,0 +1,15 @@
+.app-store-icon-split {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 40px;
+}
+.project__icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+}
+.project__app-store {
+  /* height: 0px; */
+  width: 200px;
+}

@@ -1,0 +1,25 @@
+.proj-nav__container {
+  height: 92vh;
+  width: 20%;
+  border: solid red;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+}
+.proj-nav__up {
+  height: 50%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proj-nav__down {
+  height: 50%;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proj__nav-arrow {
+  width: 100%;
+}
