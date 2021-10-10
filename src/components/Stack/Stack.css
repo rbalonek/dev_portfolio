@@ -15,7 +15,7 @@
 @media (max-width: 950px) {
   .stack__container {
     /* background-color: red; */
-    width: 60px;
+    width: 40px;
     height: 75vh;
     display: flex;
     flex-direction: column;
@@ -25,6 +25,6 @@
   }
   .proj__img {
     height: 60px;
-    max-width: 60px;
+    max-width: 40px;
   }
 }

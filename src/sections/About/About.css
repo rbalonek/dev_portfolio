@@ -32,3 +32,28 @@
     color: red;
   }
 }
+.mobileOnly {
+  display: none;
+}
+@media (max-width: 950px) {
+  .mobileOnly {
+    display: flex;
+  }
+
+  .mobileNavBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    /* border: solid red; */
+  }
+  .box-div {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+    border: solid red;
+  }
+}

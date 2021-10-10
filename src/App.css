@@ -6,3 +6,20 @@
   justify-content: center;
   align-items: center;
 }
+.showOnMobile {
+  display: none;
+}
+.showOnDesktop {
+  display: block;
+}
+
+@media (max-width: 950px) {
+  .showOnDesktop {
+    display: none;
+    background-color: blue;
+  }
+  .showOnMobile {
+    display: block;
+    background-color: red;
+  }
+}

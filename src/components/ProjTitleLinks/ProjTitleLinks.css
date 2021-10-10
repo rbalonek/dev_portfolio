@@ -17,6 +17,10 @@
     font-size: 20px;
   }
   .project__icon-links {
-    display: none;
+    /* display: none; */
+    top: 10px;
+    width: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }

@@ -1,3 +1,6 @@
+.hideOnDesktop {
+  display: none;
+}
 .proj-nav__container {
   height: 80vh;
   width: 10%;
@@ -6,8 +9,25 @@
   display: flex;
   flex-direction: column;
 }
+.ProjNav__button-split {
+  /* background-color: orange; */
+  display: flex;
+  width: 100%;
+}
+.ProjNav__left {
+  /* background-color: green; */
+  border: solid red;
+  width: 50%;
+}
+.ProjNav__right {
+  /* background-color: red; */
+  border: solid red;
+  width: 50%;
+}
+
 .proj-nav__up {
   height: 40vh;
+
   /* background-color: blue; */
   display: flex;
   justify-content: center;
@@ -18,6 +38,7 @@
 }
 .proj-nav__down {
   height: 40vh;
+
   /* background-color: green; */
   display: flex;
   justify-content: center;
@@ -32,5 +53,33 @@
 @media (max-width: 950px) {
   .proj-nav__container {
     height: 75vh;
+    width: 12%;
+    /* height: 568px; */
+  }
+  .proj-nav__up {
+    height: 189px;
+  }
+
+  .proj-nav__down {
+    height: 189px;
+  }
+  .hideOnDesktop {
+    display: block;
+  }
+  .ProjNav__buttons-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    /* background-color: red; */
+  }
+  .ProjNav__buttons-mobile p {
+    /* width: 100%; */
+    font-size: 10px;
+    /* background-color: blue; */
+    border: solid red;
+    border-left: none;
+    border-right: none;
+    padding: 2px;
   }
 }
