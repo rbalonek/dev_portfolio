@@ -54,3 +54,22 @@
     justify-content: flex-start;
   }
 }
+
+@media (max-width: 400px) {
+  .contact__button {
+    position: relative;
+    height: 50px;
+    border-radius: 70%;
+    box-shadow: 0 12px 4px rgba(173, 45, 45, 0.5);
+    display: flex;
+    align-self: center;
+    /* background-color: black; */
+  }
+  .contact__icon-holders {
+    height: 40vh;
+    margin-bottom: 0px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

@@ -78,3 +78,14 @@
     border: solid red;
   }
 }
+
+@media (max-width: 400px) {
+  .about__container p {
+    font-size: 15px;
+    padding: 20px;
+    animation-name: colorIfy;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+}

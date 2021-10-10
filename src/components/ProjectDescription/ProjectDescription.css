@@ -14,3 +14,11 @@
     font-size: 12px;
   }
 }
+@media (max-width: 400px) {
+  .proj-description__container {
+    bottom: 0px;
+  }
+  .proj-description__container p {
+    font-size: 11px;
+  }
+}

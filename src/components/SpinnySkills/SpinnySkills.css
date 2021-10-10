@@ -18,13 +18,8 @@
   }
 }
 
-@media (max-width: 450px) {
-  /* .spinny-div__container {
-    width: 80%;
-
-    flex-wrap: nowrap;
-    padding: 50px;
-    position: relative;
-    top: 100px;
-  } */
+@media (max-width: 400px) {
+  .spinny-div__container {
+    padding: 0;
+  }
 }
