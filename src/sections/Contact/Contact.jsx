@@ -51,27 +51,27 @@ export default function Contact() {
           />
         </a>
       </div>
-      <div className="mobileNavBox mobileOnly">
-        <div className="box-div">
-          <a href="/#">
+      <div className="mobileNavBox">
+        <a className="box-div" href="/#">
+          <div>
             <p className="box-div__text">Top</p>
-          </a>
-        </div>
-        <div className="box-div">
-          <a href="#skills">
+          </div>
+        </a>
+        <a className="box-div" href="#skills">
+          <div>
             <p className="box-div__text">Skills</p>
-          </a>
-        </div>
-        <div className="box-div">
-          <a href="#projects">
+          </div>
+        </a>
+        <a className="box-div" href="#projects">
+          <div>
             <p className="box-div__text">Projects</p>
-          </a>
-        </div>
-        <div className="box-div">
-          <a href="#about">
+          </div>
+        </a>
+        <a className="box-div" href="#about">
+          <div>
             <p className="box-div__text">About</p>
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
     </div>
   );

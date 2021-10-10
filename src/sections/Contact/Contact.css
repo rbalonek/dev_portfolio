@@ -33,6 +33,7 @@
   animation-duration: 6000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear; */
+  margin-bottom: 50px;
 }
 
 .less {
@@ -41,6 +42,7 @@
 @media (max-width: 950px) {
   .contact__icon-holders {
     height: 60vh;
+    margin-bottom: 0px;
   }
   .contact__container {
     height: 100vh;

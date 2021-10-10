@@ -12,27 +12,27 @@ export default function About() {
         of the technological advances of my lifetime, I am excited to create new
         innovative approaches to improve the quality of life for everyone.
       </p>
-      <div className="mobileNavBox mobileOnly">
-        <div className="box-div">
-          <a href="/#">
+      <div className="mobileNavBox">
+        <a className="box-div" href="/#">
+          <div>
             <p className="box-div__text">Top</p>
-          </a>
-        </div>
-        <div className="box-div">
-          <a href="#skills">
+          </div>
+        </a>
+        <a className="box-div" href="#skills">
+          <div>
             <p className="box-div__text">Skills</p>
-          </a>
-        </div>
-        <div className="box-div">
-          <a href="#projects">
+          </div>
+        </a>
+        <a className="box-div" href="#projects">
+          <div>
             <p className="box-div__text">Projects</p>
-          </a>
-        </div>
-        <div className="box-div">
-          <a href="#contact">
+          </div>
+        </a>
+        <a className="box-div" href="#contact">
+          <div>
             <p className="box-div__text">Contact</p>
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
     </div>
   );
