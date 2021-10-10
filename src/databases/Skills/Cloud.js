@@ -17,7 +17,7 @@ const Cloud = [
   },
   {
     name: "netlify",
-    src: "https://res.cloudinary.com/bobalobbadingdong/image/upload/c_fit,h_50,w_50/v1633719579/Portfolio%20Pics/Logos/Netlify_oliy4v.png",
+    src: "https://res.cloudinary.com/bobalobbadingdong/image/upload/c_scale,h_50,w_100/v1633719579/Portfolio%20Pics/Logos/Netlify_oliy4v.png",
   },
   {
     name: "aws",

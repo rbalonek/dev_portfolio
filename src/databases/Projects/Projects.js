@@ -102,7 +102,7 @@ const Projects = [
     ],
     stack: [
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/react-original-wordmark.fadd9c95_fhawii.svg",
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604514327/Portfolio%20Pics/Netlify-Logo_amivge.png",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/c_scale,h_50,w_100/v1633719579/Portfolio%20Pics/Logos/Netlify_oliy4v.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512573/Portfolio%20Pics/heroku-plain-wordmark.6fd6c3b7_pgrfhc.svg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/rails-logo_f3zkrq.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512569/Portfolio%20Pics/postgresql-plain-wordmark.06aadd67_jqewef.svg",
@@ -130,11 +130,11 @@ const Projects = [
     ],
     stack: [
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512571/Portfolio%20Pics/mongodb-plain-wordmark.07c92838_rgtxc3.svg",
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512572/Portfolio%20Pics/express-original-wordmark.f1a0b0e9_pom0ic.svg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1633719287/Portfolio%20Pics/Logos/expressjs-logo-text-serverside-runtime-system_hstig2.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/react-original-wordmark.fadd9c95_fhawii.svg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/node-js-logo_qxghko.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512573/Portfolio%20Pics/git-original-wordmark.66e06c06_s7bavw.svg",
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604514327/Portfolio%20Pics/Netlify-Logo_amivge.png",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/c_scale,h_50,w_100/v1633719579/Portfolio%20Pics/Logos/Netlify_oliy4v.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/postman-logo_rr22mr.png",
     ],
   },
@@ -180,7 +180,7 @@ const Projects = [
     ],
     stack: [
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/react-original-wordmark.fadd9c95_fhawii.svg",
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604514327/Portfolio%20Pics/Netlify-Logo_amivge.png",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/c_scale,h_50,w_100/v1633719579/Portfolio%20Pics/Logos/Netlify_oliy4v.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512573/Portfolio%20Pics/heroku-plain-wordmark.6fd6c3b7_pgrfhc.svg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/rails-logo_f3zkrq.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512569/Portfolio%20Pics/postgresql-plain-wordmark.06aadd67_jqewef.svg",
@@ -207,7 +207,7 @@ const Projects = [
     ],
     stack: [
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/react-original-wordmark.fadd9c95_fhawii.svg",
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604514327/Portfolio%20Pics/Netlify-Logo_amivge.png",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/c_scale,h_50,w_100/v1633719579/Portfolio%20Pics/Logos/Netlify_oliy4v.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512571/Portfolio%20Pics/html5-plain-wordmark.67d97895_kehxm9.svg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512571/Portfolio%20Pics/js-logo_xrxnfl.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512573/Portfolio%20Pics/css-logo_scrgq5.png",
