@@ -19,3 +19,8 @@
   width: 100%;
   z-index: 1;
 }
+@media (max-width: 950px) {
+  .carousel * {
+    height: 400px;
+  }
+}

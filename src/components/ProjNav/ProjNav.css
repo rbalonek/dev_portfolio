@@ -29,3 +29,8 @@
 .proj__nav-arrow {
   width: 100%;
 }
+@media (max-width: 950px) {
+  .proj-nav__container {
+    height: 75vh;
+  }
+}

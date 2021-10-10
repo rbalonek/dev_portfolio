@@ -6,3 +6,11 @@
   bottom: 20px;
   /* border: solid red; */
 }
+@media (max-width: 950px) {
+  .proj-description__container {
+    bottom: 0px;
+  }
+  .proj-description__container p {
+    font-size: 12px;
+  }
+}

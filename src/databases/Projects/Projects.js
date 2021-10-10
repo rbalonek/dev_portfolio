@@ -39,9 +39,9 @@ const Projects = [
     carousel: [
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1633814335/Portfolio%20Pics/Cherry%20Proj/CherryGif1_vdwyf2.gif",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1633815706/Portfolio%20Pics/Cherry%20Proj/CherryGif3_zcby89.gif",
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1612117727/Portfolio%20Pics/Cherry%20Proj/Screen_Shot_2021-01-31_at_10.25.49_AM_auno6n.png",
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1612117699/Portfolio%20Pics/Cherry%20Proj/Screen_Shot_2021-01-31_at_10.26.13_AM_cm8qve.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1633814863/Portfolio%20Pics/Cherry%20Proj/CherryGif2_rrpbcr.gif",
+
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1612117699/Portfolio%20Pics/Cherry%20Proj/Screen_Shot_2021-01-31_at_10.26.13_AM_cm8qve.png",
     ],
     text: [
       "The designers came to me for a prototype site they could play with, and come up with new features.",

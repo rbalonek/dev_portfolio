@@ -1,0 +1,22 @@
+.project__title-links {
+  display: flex;
+  justify-content: center;
+}
+
+.project__icon-links {
+  width: 50px;
+  border-radius: 80%;
+  position: relative;
+  top: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+@media (max-width: 950px) {
+  .project__title-links h1 {
+    font-size: 20px;
+  }
+  .project__icon-links {
+    display: none;
+  }
+}

@@ -3,36 +3,24 @@
   color: white;
   text-align: -webkit-center;
 }
-.project__title-links {
-  /* background-color: red; */
-  /* width: 80vw; */
-  display: flex;
-  justify-content: center;
-}
+
 .screen-split {
   display: flex;
   width: 100%;
-  /* background-color: blue; */
   justify-content: space-around;
 }
 .project__right-split {
-  /* background-color: red; */
   width: 70%;
-  /* height: 100px; */
   display: flex;
   flex-direction: column;
 }
-.project__icon-links {
-  width: 50px;
-  border-radius: 80%;
-  position: relative;
-  top: 20px;
-  padding-right: 100px;
-  padding-left: 100px;
-}
+
 .right {
   margin-right: 10px;
 }
 .left {
   margin-left: 10px;
+}
+
+@media (max-width: 950px) {
 }

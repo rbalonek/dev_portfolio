@@ -13,3 +13,13 @@
   /* height: 0px; */
   width: 200px;
 }
+@media {
+  .project__app-store {
+    width: 100px;
+  }
+  .project__icon {
+    height: 35px;
+    width: 35px;
+    border-radius: 10%;
+  }
+}
