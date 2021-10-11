@@ -1,6 +1,8 @@
 import React from "react";
 import "./NavBar.css";
 
+import zenscroll from "zenscroll";
+
 export default function NavBar() {
   return (
     <div className="navBar__container">
