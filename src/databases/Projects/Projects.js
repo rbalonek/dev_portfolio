@@ -218,7 +218,7 @@ const Projects = [
   {
     id: "signup-template",
     navUp: "restaurant-app",
-    navDown: "about",
+    navDown: "operabob",
     github: "https://github.com/rbalonek/Signup_Template",
     title: "Vendor Signup",
     website: "https://signup-template.netlify.app/",
@@ -237,6 +237,28 @@ const Projects = [
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/rails-logo_f3zkrq.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512569/Portfolio%20Pics/postgresql-plain-wordmark.06aadd67_jqewef.svg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/ruby-plain-wordmark.b065b718_pxbhrj.svg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/node-js-logo_qxghko.png",
+    ],
+  },
+  {
+    id: "operabob",
+    navUp: "signup-template",
+    navDown: "about",
+    github: "https://github.com/rbalonek/new-opera-site",
+    title: "Performer Website",
+    website: "https://www.robertbalonek.com/",
+    carousel: [
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1634245048/robertbalonek.com/operabob1_juph5a.gif",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1634245048/robertbalonek.com/operabob2_waun2z.gif",
+    ],
+    text: [
+      "This is a fairly simple, responsive opera singer website utilizing a local database for all the information.",
+      "I wanted to keep to a basic theme with red, white, and black and subtle animations.",
+      "I can easily duplicate this site, and import any performers information here.",
+    ],
+    stack: [
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512568/Portfolio%20Pics/react-original-wordmark.fadd9c95_fhawii.svg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/c_scale,h_50,w_100/v1633719579/Portfolio%20Pics/Logos/Netlify_oliy4v.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1604512570/Portfolio%20Pics/node-js-logo_qxghko.png",
     ],
   },
