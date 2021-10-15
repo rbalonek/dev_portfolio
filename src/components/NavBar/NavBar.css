@@ -1,6 +1,6 @@
 .navBar__container {
   height: 50px;
-  width: 100vw;
+  width: 98vw;
   display: flex;
   color: white;
   justify-content: space-between;
@@ -23,7 +23,7 @@
 .right-nav {
   width: 150px;
   background-color: black;
-  padding-right: 50px;
+  /* padding-right: 50px; */
   display: flex;
 }
 .right_nav-move {
