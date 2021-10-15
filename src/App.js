@@ -13,7 +13,6 @@ import ReactGA from "react-ga";
 function App() {
   ReactGA.pageview(window.location.pathname);
   // useLockBodyScroll(true);
-
   return (
     <div className="App">
       <Landing />
