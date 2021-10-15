@@ -8,7 +8,10 @@ import Contact from "./sections/Contact/Contact";
 
 // import { useLockBodyScroll } from "react-use";
 
+import ReactGA from "react-ga";
+
 function App() {
+  ReactGA.pageview(window.location.pathname);
   // useLockBodyScroll(true);
 
   return (
