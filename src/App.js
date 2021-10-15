@@ -10,7 +10,6 @@ import Contact from "./sections/Contact/Contact";
 
 function App() {
   // useLockBodyScroll(true);
-
   return (
     <div className="App">
       <Landing />
