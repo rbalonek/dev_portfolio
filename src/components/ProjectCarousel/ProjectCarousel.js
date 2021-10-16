@@ -17,7 +17,7 @@ export default function ProjectCarousel(props) {
         swipeable
       >
         {props.images.map((image, index) => (
-          <div className="carousel__image-holder">
+          <div key={index} className="carousel__image-holder">
             <img
               className="carousel__image"
               alt={`Ige${index}`}

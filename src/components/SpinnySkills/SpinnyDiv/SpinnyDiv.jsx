@@ -18,14 +18,14 @@ export default function SpinnyDiv(props) {
       {props.imgArray && (
         <>
           {props.imgArray.map((image, index) => (
-            <>
+            <div key={index}>
               <img
                 key={index + `$image.name`}
                 className={spinStateIcon}
                 alt="spin"
                 src={image.src}
               />
-            </>
+            </div>
           ))}
         </>
       )}

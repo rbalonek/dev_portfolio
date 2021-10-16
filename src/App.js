@@ -9,9 +9,8 @@ import Contact from "./sections/Contact/Contact";
 import { initGA, PageView, Event } from "./Tracking";
 
 function App() {
-  initGA("UA-210312980-1");
+  initGA(process.env.REACT_APP_GA_KEY);
   PageView();
-
   return (
     <div className="App">
       <Landing Event={Event} />

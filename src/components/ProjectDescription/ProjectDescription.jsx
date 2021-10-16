@@ -6,9 +6,9 @@ export default function ProjectDescription(props) {
       {props.text.length && (
         <>
           {props.text.map((line, index) => (
-            <>
+            <div key={index}>
               <p key={index}>{line}</p>
-            </>
+            </div>
           ))}
         </>
       )}

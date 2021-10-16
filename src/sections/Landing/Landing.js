@@ -8,7 +8,7 @@ export default function Landing(props) {
       onClick={() =>
         props.Event("Home Click", "First Screen Clicked", "LANDING_SECTION")
       }
-      class="noZensmooth"
+      className="noZensmooth"
       href="#skills"
     >
       <div className="landing__container">

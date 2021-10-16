@@ -7,14 +7,14 @@ export default function Stack(props) {
       {props.proj.stack.length && (
         <>
           {props.proj.stack.map((stackImg, index) => (
-            <>
+            <div key={index}>
               <img
                 className="proj__img"
                 key={index + stackImg}
                 alt="stack-img"
                 src={stackImg}
               />
-            </>
+            </div>
           ))}
         </>
       )}
