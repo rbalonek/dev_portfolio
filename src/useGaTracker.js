@@ -1,7 +1,6 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import ReactGA from "react-ga";
-ReactGA.initialize("UA-210312980-1");
 
 const useGaTracker = () => {
   const location = useLocation();
@@ -9,7 +8,7 @@ const useGaTracker = () => {
 
   useEffect(() => {
     if (!window.location.href.includes("localhost")) {
-      ReactGA.initialize("UA-210312980-1");
+      ReactGA.initialize(process.env.REACT_APP_GA_KEY);
     }
     setInitialized(true);
   }, []);

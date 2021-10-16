@@ -15,9 +15,8 @@ export default function NavBar() {
         </a>
       </div>
       <div className="right-nav">
-        <a href="#about">
-          <p className="right_nav-move">About</p>
-        </a>
+        <p className="right_nav-move">About</p>
+
         <a href="#contact">
           <p>Contact</p>
         </a>
