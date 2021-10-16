@@ -4,7 +4,18 @@ import "./ProjTitleLinks.css";
 export default function ProjTitleLinks(props) {
   return (
     <div className="project__title-links">
-      <a target="_blank" rel="noopener noreferrer" href={props.github}>
+      <a
+        onClick={() =>
+          props.Event(
+            `${props.title} click`,
+            "Github Clicked",
+            "PROJECT_SECTION"
+          )
+        }
+        target="_blank"
+        rel="noopener noreferrer"
+        href={props.github}
+      >
         <img
           className="project__icon-links"
           alt="github"
@@ -13,7 +24,18 @@ export default function ProjTitleLinks(props) {
       </a>
 
       <h1>{props.title}</h1>
-      <a target="_blank" rel="noopener noreferrer" href={props.website}>
+      <a
+        onClick={() =>
+          props.Event(
+            `${props.title} click`,
+            "Website Clicked",
+            "PROJECT_SECTION"
+          )
+        }
+        target="_blank"
+        rel="noopener noreferrer"
+        href={props.website}
+      >
         <img
           className="project__icon-links"
           alt="website"

@@ -6,21 +6,20 @@ import Skills from "./sections/Skills/Skills";
 import NavBar from "./components/NavBar/NavBar.jsx";
 import Contact from "./sections/Contact/Contact";
 
-import ReactGA from "react-ga";
-ReactGA.initialize("UA-210312980-1");
+import { initGA, PageView, Event } from "./Tracking";
 
 function App() {
-  ReactGA.initialize("UA-210312980-1");
-  ReactGA.pageview(window.location.pathname + window.location.search);
+  initGA("UA-210312980-1");
+  PageView();
 
   return (
     <div className="App">
-      <Landing />
+      <Landing Event={Event} />
       <Skills />
       <NavBar />
-      <Projects />
+      <Projects Event={Event} />
       <About />
-      <Contact />
+      <Contact Event={Event} />
     </div>
   );
 }

@@ -1,12 +1,15 @@
 import React from "react";
 import "./Contact.css";
 
-export default function Contact() {
+export default function Contact(props) {
   return (
     <div id="contact" className="contact__container">
       <h1>CONTACT</h1>
       <div className="contact__icon-holders">
         <a
+          onClick={() =>
+            props.Event("Contact Section", "Github Clicked", "CONTACT_SECTION")
+          }
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/rbalonek/"
@@ -18,6 +21,9 @@ export default function Contact() {
           />
         </a>
         <a
+          onClick={() =>
+            props.Event("Contact Section", "EmailMe Clicked", "CONTACT_SECTION")
+          }
           target="_blank"
           rel="noopener noreferrer"
           href="mailto:roebrtbalonek@gmail.com?"
@@ -29,6 +35,13 @@ export default function Contact() {
           />
         </a>
         <a
+          onClick={() =>
+            props.Event(
+              "Contact Section",
+              "LinkedIn Clicked",
+              "CONTACT_SECTION"
+            )
+          }
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/robertbalonek/"
@@ -40,6 +53,9 @@ export default function Contact() {
           />
         </a>
         <a
+          onClick={() =>
+            props.Event("Contact Section", "Upwork Clicked", "CONTACT_SECTION")
+          }
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.upwork.com/freelancers/~01cb3c6aad79dd9911"

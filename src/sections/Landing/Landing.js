@@ -2,9 +2,15 @@ import React from "react";
 import "./Landing.css";
 import { Fade } from "react-awesome-reveal";
 
-export default function Landing() {
+export default function Landing(props) {
   return (
-    <a class="noZensmooth" href="#skills">
+    <a
+      onClick={() =>
+        props.Event("Home Click", "First Screen Clicked", "LANDING_SECTION")
+      }
+      class="noZensmooth"
+      href="#skills"
+    >
       <div className="landing__container">
         <h1>Robert Balonek</h1>
         <h3>Software Engineer</h3>
