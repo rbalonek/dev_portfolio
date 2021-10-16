@@ -6,13 +6,13 @@ import Skills from "./sections/Skills/Skills";
 import NavBar from "./components/NavBar/NavBar.jsx";
 import Contact from "./sections/Contact/Contact";
 
-// import { useLockBodyScroll } from "react-use";
-
 import ReactGA from "react-ga";
+ReactGA.initialize("UA-210312980-1");
 
 function App() {
-  ReactGA.pageview(window.location.pathname);
-  // useLockBodyScroll(true);
+  ReactGA.initialize("UA-210312980-1");
+  ReactGA.pageview(window.location.pathname + window.location.search);
+
   return (
     <div className="App">
       <Landing />

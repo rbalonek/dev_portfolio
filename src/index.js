@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 // import { ParallaxProvider } from "react-scroll-parallax";
-import ReactGA from "react-ga";
+// import ReactGA from "react-ga";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,4 +17,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-ReactGA.initialize("G-WR7V5G4CDS", []);
+// ReactGA.initialize("G-WR7V5G4CDS", []);
