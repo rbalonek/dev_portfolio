@@ -48,7 +48,7 @@ export default function Contact(props) {
         >
           <img
             className="contact__button"
-            src="https://cdns.iconmonstr.com/wp-content/assets/preview/2012/240/iconmonstr-linkedin-3.png"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1654901074/768px-LinkedIn_logo_initials_lzicdo.png"
             alt="Linkedin"
           />
         </a>

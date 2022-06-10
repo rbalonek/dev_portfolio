@@ -21,5 +21,10 @@
 @media (max-width: 400px) {
   .spinny-div__container {
     padding: 0;
+    top: 50px;
+    width: 100%;
+  }
+  .spinny-div{
+    width: 90%;
   }
 }
