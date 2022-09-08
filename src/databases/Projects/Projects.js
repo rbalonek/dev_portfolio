@@ -14,7 +14,7 @@ const Projects = [
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1662676358/Portfolio%20Pics/Ted%20Fisher/Bin%20Certified/Member_Home_Mobile_xmrbyt.png",
     ],
     text: [
-      "Bin Certified is an enterprise client with payments, subscriptions, memberships, and certifications.",
+      "Bin Certified is an enterprise client with payments, subscriptions, memberships, and certifications. ",
       "Client wanted to use Wix so they could edit after I setup.",
       "Custom Nav Bar, mobile navigation dropdowns, client database, signup, subscription, and payments.",
     ],
