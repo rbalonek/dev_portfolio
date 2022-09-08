@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 
-// import zenscroll from "zenscroll";
+import zenscroll from "zenscroll";
 
 export default function NavBar() {
   return (
