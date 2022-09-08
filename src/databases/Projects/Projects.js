@@ -1,7 +1,59 @@
 const Projects = [
   {
-    id: "happy-space",
+    id: "bin-certified",
     navUp: "skills",
+    navDown: "find-a-bin",
+    github: "https://www.bincertified.org/",
+    title: "Association of Certified Bin Operators",
+    website: "https://www.bincertified.org/",
+    carousel: [
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1662676358/Portfolio%20Pics/Ted%20Fisher/Bin%20Certified/Member_Home_vjg7pn.png",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1662676358/Portfolio%20Pics/Ted%20Fisher/Bin%20Certified/NBDD_Mobile_qf6jlj.png",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1662676358/Portfolio%20Pics/Ted%20Fisher/Bin%20Certified/Home_kua1i1.png",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1662676358/Portfolio%20Pics/Ted%20Fisher/Bin%20Certified/Custom_Nav_Mobile_xahen4.png",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1662676358/Portfolio%20Pics/Ted%20Fisher/Bin%20Certified/Member_Home_Mobile_xmrbyt.png",
+    ],
+    text: [
+      "Bin Certified is an enterprise client with payments, subscriptions, memberships, and certifications.",
+      "Client wanted to use Wix so they could edit after I setup.",
+      "Custom Nav Bar, mobile navigation dropdowns, client database, signup, subscription, and payments.",
+    ],
+    stack: [
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1662672865/Portfolio%20Pics/Creator_o9nvzl.png",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1626733192/Portfolio%20Pics/EditorX_qeugvc.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1626733095/Portfolio%20Pics/wix_mooazv.png",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1626733236/Portfolio%20Pics/4a5235_1df4b8d3f8014934aba113b6e0d1b32e_mv2_holvsh.png",
+    ],
+  },
+  {
+    id: "find-a-bin",
+    navUp: "bin-certified",
+    navDown: "happy-space",
+    github: "https://www.findabin.com/",
+    title: "Find A Bin",
+    website: "https://www.findabin.com/",
+    carousel: [
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1662673201/Portfolio%20Pics/Ted%20Fisher/Find%20A%20Bin/Screen_Shot_2022-09-02_at_7.38.59_PM_sytqzo.png",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1662673251/Portfolio%20Pics/Ted%20Fisher/Find%20A%20Bin/Home_Mobile_twoqov.png",
+      // "",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1662673251/Portfolio%20Pics/Ted%20Fisher/Find%20A%20Bin/Custom_Nav_Movile_gxweuh.png",
+      // "",
+    ],
+    text: [
+      "Find a Bin is a fully functioning recycling bin search website built over a weekend through upwork.",
+      "Client wanted to use Wix so he could edit later.",
+      "Custom Nav Bar, mobile navigation dropdowns, and integration with search engine.",
+    ],
+    stack: [
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1662672865/Portfolio%20Pics/Creator_o9nvzl.png",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1626733192/Portfolio%20Pics/EditorX_qeugvc.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1626733095/Portfolio%20Pics/wix_mooazv.png",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1626733236/Portfolio%20Pics/4a5235_1df4b8d3f8014934aba113b6e0d1b32e_mv2_holvsh.png",
+    ],
+  },
+  {
+    id: "happy-space",
+    navUp: "find-a-bin",
     navDown: "cherry",
     github: "https://github.com/rbalonek/Happy-Space-App",
     title: "Happy Space",
@@ -155,9 +207,9 @@ const Projects = [
       "Turnaround time was a weekend including edits.",
     ],
     stack: [
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1662672865/Portfolio%20Pics/Creator_o9nvzl.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1626733192/Portfolio%20Pics/EditorX_qeugvc.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1626733095/Portfolio%20Pics/wix_mooazv.png",
-
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1626733236/Portfolio%20Pics/4a5235_1df4b8d3f8014934aba113b6e0d1b32e_mv2_holvsh.png",
     ],
   },

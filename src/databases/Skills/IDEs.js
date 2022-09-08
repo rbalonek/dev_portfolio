@@ -12,6 +12,10 @@ const IDEs = [
     src: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1626733095/Portfolio%20Pics/wix_mooazv.png",
   },
   {
+    name: "Wix Velo",
+    src: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1662672865/Portfolio%20Pics/Creator_o9nvzl.png",
+  },
+  {
     name: "Squarespace",
     src: "https://res.cloudinary.com/bobalobbadingdong/image/upload/c_lpad,h_50,w_75/v1633719393/Portfolio%20Pics/Logos/SSWh_f9ervx.png",
   },

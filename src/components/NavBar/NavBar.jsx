@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 
-import zenscroll from "zenscroll";
+// import zenscroll from "zenscroll";
 
 export default function NavBar() {
   return (
@@ -10,7 +10,7 @@ export default function NavBar() {
         <a href="#skills">
           <p>Skills</p>
         </a>
-        <a href="#happy-space">
+        <a href="#bin-certified">
           <p className="left_nav-move">Projects</p>
         </a>
       </div>

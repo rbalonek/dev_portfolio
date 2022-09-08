@@ -8,7 +8,7 @@ export default function Skills() {
       <h1>SKILLS</h1>
       <SpinnySkills />
       <div>
-        <a href="#happy-space">
+        <a href="#bin-certified">
           <div className="arrow__holder">
             <div className="arrow">
               <span></span>
