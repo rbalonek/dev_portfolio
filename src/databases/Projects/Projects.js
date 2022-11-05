@@ -169,7 +169,7 @@ const Projects = [
     github: "https://github.com/rbalonek/mern-bootstrap-project",
     title: "MERN Bootstrap",
     website:
-      "https://mern-bootstrap-portfolio.netlify.app/https://opera-singer-search.netlify.app/operas",
+      "https://mern-bootstrap-portfolio.netlify.app/",
     carousel: [
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1633817067/Portfolio%20Pics/mern1_emjmia.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1633817081/Portfolio%20Pics/mern2_vk7hvc.png",
