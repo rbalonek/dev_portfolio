@@ -8,7 +8,7 @@ export default function Skills() {
       <h1>SKILLS</h1>
       <SpinnySkills />
       <div>
-        <a href="#bin-certified">
+        <a href="#melt-works">
           <div className="arrow__holder">
             <div className="arrow">
               <span></span>
